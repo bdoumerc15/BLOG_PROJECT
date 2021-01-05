@@ -1,4 +1,25 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 ul {
+    background-color: #a5a58d;
+    padding: 1rem 0;
+    position: relative;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+li::marker {
+    content: none;
+}
+
+.fa-user-circle {
+    position: absolute;
+    top: .650rem;
 }
